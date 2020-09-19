@@ -1,0 +1,179 @@
+/**Ajustando barra superior**/
+html, body, main{
+    height: 100%;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-bottom: .1rem solid black;
+    background-color: greenyellow;
+}
+/**Setando todas as fontes em negrito**/
+h1, p, h3, label, li, h4{
+    font-weight: bold;
+}
+/**Ajustando menu sainduiche**/
+.menusanduiche{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+}
+/**Ajustando Fonte do nome**/
+.nome{
+    font-size: 200%;
+    color: green;
+}
+/**Inicio Tela Inicial**/
+
+/**Flex da Tela Inicial**/
+.menu_tela_inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/**Ajustando texto\borda\margem da tela inicial**/
+.menu_itens{
+    border-radius: 0.5rem;
+    border: 0.3rem solid black;
+    padding: 1rem;
+    margin: 1rem 1rem 1rem 1rem ;
+    font-size: 6vw;
+}
+/**Fim Tela Inicial**/
+
+/**Inicio Fluxo 1**/
+.Fluxo1_tela2, .Fluxo1_tela3, .Fluxo1_tela4, .Fluxo2_tela2, .Fluxo3_Tela2, .Fluxo2_tela3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.simb_anexo{
+    padding: 3% 80% 3% 3%;
+    border: 0.1rem solid black;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.simb_anexo2{
+    padding: 3% 80% 80% 3%;
+    border: 0.1rem solid black;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+input[type="text"]{
+    align-self: flex-start;
+    border: 0.1rem solid black;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.Fluxo3_Tela3, .Fluxo2_Tela3, .Fluxo2_Tela5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.botao_passar, .chat{
+    align-self: flex-end;
+    margin: 0.1rem 1rem 1rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: 0.1rem solid black;
+    background-color: lightgray;
+    color: black;
+}
+
+/**Fim Fluxo 1**/
+
+/**Inicio Fluxo 2**/
+
+input[type="search"]{
+    border: 0.1rem solid black;
+    margin: 0.5rem;
+}
+
+.pesquisa{
+    border: 0.1rem solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.chat_jv{
+    align-self: flex-end;
+    border: 0.1rem solid black;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+
+.chat_lucca{
+    border: 0.1rem solid black;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+
+ul{
+    width: 100%;
+}
+/**Fim Fluxo 2**/
+
+/**Inicio Fluxo 3**/
+
+.regiao, .cidade, .anexo, label{
+    font-size: 5vw;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.mapa{
+    width: 70%;
+    height: auto;
+}
+
+.nome_usuario{
+    font-size: 8vw;
+    margin-bottom: 1rem;
+    margin-top: 1rem; 
+    width: 100%;
+}
+
+.nome_da_cidade, {
+    font-size: 8vw;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem; 
+}
+.tamanho, .nome_da_cidade2{
+    font-size: 6vw;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem; 
+}
+
+.titulo_informacao{
+    font-size: 6vw;
+    margin: 0.5rem;
+    border-bottom: 0.1rem solid black; 
+}
+
+.informacao{
+    font-size: 4.5vw;
+    margin-top: 0.6rem;
+    margin-bottom: 0.8rem;
+    margin-left: 2rem;
+}
+
+.botao_voltar{
+    align-self: flex-start;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: 0.1rem solid black;
+    background-color: lightgray;
+    color: black;
+}
+
+
+/**Fim do Fluxo 3**/

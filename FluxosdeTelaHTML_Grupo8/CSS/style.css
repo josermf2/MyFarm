@@ -1,22 +1,31 @@
-/**Ajustando barra superior**/
 html, body, main{
     height: 100%;
+    font-weight: bold;
 }
-header{
-    position: relative;
+header, .menu_tela_inicial, .Fluxo1_Tela2, .Fluxo1_Tela3, .Fluxo1_Tela4, .Fluxo2_Tela2, .Fluxo2_Tela3, .Fluxo2_Tela4, .Fluxo2_Tela5, .Fluxo3_Tela2, .Fluxo3_Tela3{
     display: flex;
     flex-direction: column;
+} 
+.menu_tela_inicial{
+    justify-content: space-around;
+}
+
+.Fluxo3_Tela3, .Fluxo2_Tela3, .Fluxo2_Tela5{
+    align-items: flex-start;
+}
+
+.Fluxo1_Tela2, .Fluxo1_Tela3, .Fluxo1_Tela4, .Fluxo2_Tela2, .Fluxo3_Tela2, .Fluxo2_Tela3{
+    align-items: center;
+}
+
+header{
     justify-content: center;
     align-items: center;
     height: 3rem;
     border-bottom: .1rem solid black;
     background-color: greenyellow;
 }
-/**Setando todas as fontes em negrito**/
-h1, p, h3, label, li, h4{
-    font-weight: bold;
-}
-/**Ajustando menu sainduiche**/
+
 .menusanduiche{
     position: absolute;
     top: 0;
@@ -24,21 +33,12 @@ h1, p, h3, label, li, h4{
     width: 3rem;
     height: 3rem;
 }
-/**Ajustando Fonte do nome**/
+
 .nome{
-    font-size: 200%;
+    font-size: 2.5rem;
     color: green;
 }
-/**Inicio Tela Inicial**/
 
-/**Flex da Tela Inicial**/
-.menu_tela_inicial{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-/**Ajustando texto\borda\margem da tela inicial**/
 .menu_itens{
     border-radius: 0.5rem;
     border: 0.3rem solid black;
@@ -46,83 +46,47 @@ h1, p, h3, label, li, h4{
     margin: 1rem 1rem 1rem 1rem ;
     font-size: 6vw;
 }
-/**Fim Tela Inicial**/
 
-/**Inicio Fluxo 1**/
-.Fluxo1_tela2, .Fluxo1_tela3, .Fluxo1_tela4, .Fluxo2_tela2, .Fluxo3_Tela2, .Fluxo2_tela3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} 
+.simb_anexo, .simb_anexo2{
+    border: 0.1rem solid black;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
 
 .simb_anexo{
     padding: 3% 80% 3% 3%;
-    border: 0.1rem solid black;
-    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .simb_anexo2{
     padding: 3% 80% 80% 3%;
-    border: 0.1rem solid black;
-    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
-input[type="text"]{
-    align-self: flex-start;
+input{
     border: 0.1rem solid black;
     margin: 0.5rem;
     margin-bottom: 1.5rem;
+    font-size: 3vw;
 }
 
-.Fluxo3_Tela3, .Fluxo2_Tela3, .Fluxo2_Tela5{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.botao_passar, .chat{
-    align-self: flex-end;
-    margin: 0.1rem 1rem 1rem 1rem;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    border: 0.1rem solid black;
-    background-color: lightgray;
-    color: black;
-}
-
-/**Fim Fluxo 1**/
-
-/**Inicio Fluxo 2**/
-
-input[type="search"]{
-    border: 0.1rem solid black;
-    margin: 0.5rem;
-}
 
 .pesquisa{
     border: 0.1rem solid black;
     margin: 1rem;
     padding: 1rem;
+    font-size: 4vw;
 }
 
+.chat_jv, .chat_lucca{
+    border: 0.1rem solid black;
+    margin: 1rem;
+    font-size: 3vw;
+}
 .chat_jv{
     align-self: flex-end;
-    border: 0.1rem solid black;
-    margin: 1rem;
-    padding-right: 1rem;
-}
-
-.chat_lucca{
-    border: 0.1rem solid black;
-    margin: 1rem;
-    padding-right: 1rem;
 }
 
 ul{
     width: 100%;
 }
-/**Fim Fluxo 2**/
-
-/**Inicio Fluxo 3**/
 
 .regiao, .cidade, .anexo, label{
     font-size: 5vw;
@@ -130,7 +94,7 @@ ul{
     margin-bottom: 1rem;
 }
 
-.mapa{
+.mapa_e_check{
     width: 70%;
     height: auto;
 }
@@ -142,11 +106,12 @@ ul{
     width: 100%;
 }
 
-.nome_da_cidade, {
+.nome_da_cidade{
     font-size: 8vw;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem; 
 }
+
 .tamanho, .nome_da_cidade2{
     font-size: 6vw;
     margin-bottom: 0.5rem;
@@ -166,14 +131,19 @@ ul{
     margin-left: 2rem;
 }
 
-.botao_voltar{
-    align-self: flex-start;
+.botao_voltar, .botao_passar, .chat{
     margin: 1rem 1rem 1rem 1rem;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border: 0.1rem solid black;
     background-color: lightgray;
     color: black;
+    font-size: 4vw;
 }
 
+.botao_voltar{
+    align-self: flex-start;
+}
 
-/**Fim do Fluxo 3**/
+.botao_passar, .chat{
+    align-self: flex-end;
+}

@@ -1,6 +1,9 @@
 html, body, main{
     height: 100%;
     font-weight: bold;
+    background-color: rgb(238, 255, 230)
+    ;
+
 }
 header, .menu_tela_inicial, .Fluxo1_Tela2, .Fluxo1_Tela3, .Fluxo1_Tela4, .Fluxo2_Tela2, .Fluxo2_Tela3, .Fluxo2_Tela4, .Fluxo2_Tela5, .Fluxo3_Tela2, .Fluxo3_Tela3{
     display: flex;
@@ -24,7 +27,8 @@ header{
     justify-content: center;
     height: 3rem;
     border-bottom: .1rem solid black;
-    background-color: greenyellow;
+    background-color:rgb(81, 255, 0);
+
 }
 
 .menusanduiche{
@@ -37,7 +41,8 @@ header{
 
 .nome{
     font-size: 2.5rem;
-    color: green;
+    color: black
+    ;
 }
 
 .menu_itens{
@@ -136,7 +141,7 @@ ul{
     margin: 1rem 1rem 1rem 1rem;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border: 0.1rem solid black;
-    background-color: lightgray;
+    background-color: rgb(185, 255, 153);
     color: black;
     font-size: 4vw;
 }

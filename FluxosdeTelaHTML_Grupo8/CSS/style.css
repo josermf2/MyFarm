@@ -1,9 +1,8 @@
 html, body, main{
     height: 100%;
     font-weight: bold;
-    background-color: rgb(238, 255, 230)
-    ;
-
+    background-color: rgb(238, 255, 230);
+    font-family: 'Roboto Slab', serif;
 }
 header, .menu_tela_inicial, .Fluxo1_Tela2, .Fluxo1_Tela3, .Fluxo1_Tela4, .Fluxo2_Tela2, .Fluxo2_Tela3, .Fluxo2_Tela4, .Fluxo2_Tela5, .Fluxo3_Tela2, .Fluxo3_Tela3{
     display: flex;
